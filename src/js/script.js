@@ -12,3 +12,23 @@ menuToggle.addEventListener('click', function() {
         menuIcon.textContent = 'menu'; 
     }
 });
+    // Mise à jour de la date
+window.onload = function() {
+
+const dateElement = document.getElementById("date");    
+   
+    const today = new Date();
+    
+const formattedDate = today.toLocaleDateString("fr-FR", {
+               
+year: 'numeric',
+
+month: 'long',
+            
+day: 'numeric'
+    });
+
+    dateElement.
+
+textContent = formattedDate;
+};
