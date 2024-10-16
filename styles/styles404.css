@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+body{
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 48px;
+    color: #333;
+}
+
+p{
+    font-size: 20px;
+}
+
+a{
+    color: #0066cc;
+}
